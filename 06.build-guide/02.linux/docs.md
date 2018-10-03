@@ -95,6 +95,11 @@ Running assignment client:
 ```bash
 ./assignment-client/assignment-client -n 6
 ```
+In case this error is encountered: error while loading shared libraries: libnvimage.so, the below additional steps are needed.
+
+LD_LIBRARY_PATH=/usr/local/lib
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/*****/hifi/build/ext/makefiles/nvtt/project/lib
+export LD_LIBRARY_PATH
 
 Running interface:
 ```bash
