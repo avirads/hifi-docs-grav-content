@@ -28,7 +28,7 @@ sudo dpkg -i hifiqt5.10.1_5.10.1_amd64.deb
 
 Install build dependencies:
 ```bash
-sudo apt-get install libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack0 libjack-dev libxrandr-dev libudev-dev libssl-dev
+sudo apt-get install libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack0 libjack-dev libxrandr-dev libudev-dev libssl-dev zlib1g-dev
 ```
 
 To compile interface in a server you must install:
